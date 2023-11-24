@@ -18,6 +18,15 @@ class Solution {
                 count2++;
             }
         }
+        /*
+            String str = "";
+            for(int i=0; i<finished.length; i++){
+                str = finished[i]==false ? str+todo_list[i]+"," : str;
+            }
+
+            return str.split(",");
+        */
+        
         return answer;
     }
 }
