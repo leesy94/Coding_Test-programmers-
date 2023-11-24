@@ -6,5 +6,6 @@ class Solution {
         return Arrays.stream(answer)
                      .filter(str -> !str.isEmpty())
                      .toArray(String[]::new);
+        //return my_string.trim().split("[ ]+");
     }
 }
