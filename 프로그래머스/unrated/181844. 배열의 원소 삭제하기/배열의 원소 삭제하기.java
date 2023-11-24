@@ -27,7 +27,7 @@ class Solution {
         for(int temp : arrayList){ 
             answer[size++] = temp;
         }
-        
+        //return IntStream.of(arr).filter(i -> !IntStream.of(delete_list).anyMatch(s -> s == i)).toArray()
         return answer;
     }
 }
